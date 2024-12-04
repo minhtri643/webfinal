@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="3.0" xmlns="https://jakarta.ee/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd">
+    <!-- Define Persistence Unit -->
+    <persistence-unit name="shoppingAppPU">
+        <class>com.example.entity.User</class>
+        <class>com.example.entity.Order</class>
+        <class>com.example.entity.OrderItem</class>
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://avnadmin:AVNS_rrgE-Co3gqmPTjOn-LR@mysql-30628d5f-huynhminhtri643-9a10.e.aivencloud.com:15745/defaultdb?ssl-mode=REQUIRED/>
+            <property name="javax.persistence.jdbc.user" value="avnadmin"/>
+            <property name="javax.persistence.jdbc.password" value="AVNS_rrgE-Co3gqmPTjOn-LR"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="hibernate.show_sql" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>

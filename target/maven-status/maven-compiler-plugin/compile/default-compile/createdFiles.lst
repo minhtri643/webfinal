@@ -1,0 +1,10 @@
+com\mycompany\final_ltw\JakartaRestConfiguration.class
+murach\email\EmailListServlet.class
+murach\email\TestServlet.class
+Cart\Addcart\AddToCartServlet.class
+Cart\product\Product.class
+com\mycompany\final_ltw\resources\JakartaEE10Resource.class
+murach\business\User.class
+Mail\MailUtilLocal.class
+Cart\Addcart\UpdateCartServlet.class
+Mail\MailUtilLocal$1.class
